@@ -12,3 +12,6 @@ Docker image with a python http server included
 cd ~/python-http-server/
 python3 server.py
 ```
+
+## Test server
+`http://localhost:8080/hello`
