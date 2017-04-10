@@ -26,7 +26,7 @@ class MyRequestHandler(BaseHTTPRequestHandler):
 def run():
     """Start server."""
     print('starting server...')
-    server_address = ('127.0.0.1', 8888)
+    server_address = ('', 8888)
     httpd = HTTPServer(server_address, MyRequestHandler)
     print('running server...')
     httpd.serve_forever()
